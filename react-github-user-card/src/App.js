@@ -13,7 +13,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://api.github.com/users/jordan-lanier')
+    fetch('https://api.github.com/users/thomasbettencourt')
       .then(res => res.json())
       .then(userData => {
         console.log('User Data', userData);
